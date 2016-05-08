@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>表格</title>
+</head>
+<!--
+    关于HTML中table标签，实现表格
+        1、表格的作用？
+            表格主要作用是布局
+            我们可以先将表格画出来，然后往表格中添加数据
+            现在的网页布采用table比较少，采用div布局比较多
+
+-->
+<body>
+
+<!--
+        1、table是表格的标签
+        2、border是table标签的一个属性，border是属性，border="1"  表示表格的边框的宽度是1像素
+        px可以省略，默认的就是像素
+        3、width  表格宽度的一个属性
+            width="500px"   具体的像素值
+            width="50%"     页面百分比
+        4、height     是表格高度的一个属性
+        5、align      表格对其的方式
+                td  tr  标签中也可以使用
+     -->
+<table border="1" width="500" height="300" align="center" >
+    <!--表示一行-->
+    <center>员工列表</center>
+<!--这个是一个独目标记，横线-->
+    <hr color="red">
+    <tr>
+        <!--表示一个单元格-->
+        <td>
+            学习HTML
+        </td>
+        <td>
+            学习JS
+        </td>
+        <td>
+            学习CSS
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            学习JS
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            学习CSS
+        </td>
+    </tr>
+</table>
+</body>
+</html>
